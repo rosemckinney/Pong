@@ -1,5 +1,5 @@
-import Ball from "./Ball.js"
-import Paddle from "./Paddle.js"
+import Ball from "./ball.js"
+import Paddle from "./paddle.js"
 
 const ball = new Ball(document.getElementById("ball"))
 const playerPaddle = new Paddle(document.getElementById("player-paddle"))
